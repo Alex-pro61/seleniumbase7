@@ -25,3 +25,4 @@ class MyTestClass(BaseCase):
         self.assert_element('img[alt="Pony Express"]')
         self.js_click("a#logout_sidebar_link")
         self.assert_element("div#login_button_container")
+print("Hello, World!")
